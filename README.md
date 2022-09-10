@@ -5,7 +5,7 @@ Módulo de física para Delégua e JavaScript.
 
 <details>
   <summary>
-    <strong>`velocidadeMedia()`</strong>
+    <strong>velocidadeMedia()</strong>
   </summary><br>
 
   Calcula a velocidade média.
@@ -14,7 +14,7 @@ Módulo de física para Delégua e JavaScript.
 
 <details>
   <summary>
-    <strong>`deltaS()`</strong>
+    <strong>deltaS()</strong>
   </summary><br>
 
   Calcula o espaço percorrido.
