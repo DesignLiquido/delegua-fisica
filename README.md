@@ -31,3 +31,19 @@ Calcula a função horária da posição (Movimento Retilíneo Uniforme).
 ### `mruv()`
   
 Calcula o Movimento Retilíneo Uniformemente Variado.
+
+## Exemplo de uso com TypeScript/JavaScript com ES Modules
+
+```ts
+import {mruv} from '@designliquido/delegua-fisica';
+
+console.log(mruv(0, 10, 2));
+```
+
+## Exemplo de uso com JavaScript com CommonJS
+
+```js
+const { mruv } = require('@designliquido/delegua-fisica');
+
+console.log(mruv(0, 10, 2));
+```
