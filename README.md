@@ -1,58 +1,33 @@
-# delegua-fisica
-Módulo de física para Delégua e JavaScript.
+# Módulo de física para Delégua e JavaScript
 
-# CINEMÁTICA
+Assim como Delégua é uma variação da linguagem Égua, esta biblioteca é uma variação da biblioteca Eguamat.
 
-<details>
-  <summary>
-    <strong>velocidadeMedia()</strong>
-  </summary><br>
+No entanto, diferente de Eguamat, que faz parte do código da linguagem Égua, essa biblioteca é distribuída independentemente da linguagem Delégua. Isso possibilita importar a biblioteca tanto para Delégua quanto para JavaScript. Basta para isso instalar a biblioteca usando o NPM. 
 
-  Calcula a velocidade média.
+Além disso, Delégua deve ter uma automação para instalar o pacote quando for importado.
 
-</details>
+## Cinemática
 
-<details>
-  <summary>
-    <strong>deltaS()</strong>
-  </summary><br>
+### `velocidadeMedia()`
 
-  Calcula o espaço percorrido.
+Calcula a velocidade média.
 
-</details>
+### `deltaS()`
 
-<details>
-  <summary>
-    <strong>deltaT()</strong>
-  </summary><br>
+Calcula o espaço percorrido.
+
+### `deltaT()`
+
+Calcula o tempo percorrido.
+
+### `aceleracao()`
   
-  Calcula o tempo percorrido.
+Calcula a aceleração.
 
-</details>
-
-<details>
-  <summary>
-    <strong>aceleracao()</strong>
-  </summary><br>
+### `mrufh()`
   
-  Calcula a aceleração.
+Calcula a função horária da posição (Movimento Retilíneo Uniforme).
 
-</details>
-
-<details>
-  <summary>
-    <strong>mrufh()</strong>
-  </summary><br>
+### `mruv()`
   
-  Calcula a função horária da posição (M.R.U).
-
-</details>
-
-<details>
-  <summary>
-    <strong>mruv()</strong>
-  </summary><br>
-  
-  Calcula o Movimento Retilíneo Uniformemente Variado.
-
-</details>
+Calcula o Movimento Retilíneo Uniformemente Variado.
